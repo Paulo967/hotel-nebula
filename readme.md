@@ -1,6 +1,6 @@
 # Hotel Nebula - Sistema de Gestao Hoteleira
 
-Este é um projeto prático que desenvolvi para estruturar, modelar e manipular o banco de dados de uma rede hoteleira em expansão. O meu foco foi construir toda a base de dados do zero, pensando em como o sistema funcionaria no mundo real antes de ser integrado a uma aplicação ou API no futuro.
+Este é um projeto prático para estruturar, modelar e manipular o banco de dados de uma rede hoteleira em expansão. O foco foi construir toda a base de dados do zero, pensando em como o sistema funcionaria no mundo real antes de ser integrado a uma aplicação ou API no futuro.
 
 ## Meu Objetivo
 
@@ -14,13 +14,13 @@ Meu objetivo principal com este projeto foi percorrer todas as etapas fundamenta
 
 Dividi o desenvolvimento em três fases principais para manter tudo organizado:
 
-### Parte 1: Modelagem (Origem do Sistema)
+###  1: Modelagem 
 Nesta etapa inicial, analisei as necessidades do hotel e identifiquei as entidades principais (Hóspedes, Quartos, Reservas, Hospedagens, Pagamentos, Funcionários, Consumos e Avaliações). A partir daí, defini os relacionamentos entre elas e construí o Diagrama Entidade-Relacionamento (ER).
 
-### Parte 2: Implementação Física (Montagem do Núcleo)
+###  2: Implementação Física 
 Com o modelo visual pronto, fui para a codificação. Criei o banco de dados relacional usando SQL (DDL), estruturando as tabelas com seus devidos tipos de dados, chaves primárias (PK) e chaves estrangeiras (FK). Também criei um script de inserção com uma massa de dados inicial e realista para poder testar o sistema na prática.
 
-### Parte 3: Consultas e Relatórios (Radar de Comando)
+###  3: Consultas e Relatórios 
 Para finalizar, desenvolvi várias consultas SQL (DQL) focadas na tomada de decisão e na gestão do hotel. Criei scripts para extrair métricas como:
 - Quais quartos estão disponíveis em um determinado período.
 - O ranking de hóspedes que mais realizaram reservas.
@@ -41,7 +41,7 @@ Para finalizar, desenvolvi várias consultas SQL (DQL) focadas na tomada de deci
 - /database/03_queries.sql : Script contendo as consultas e relatórios gerenciais feitas.
 - /docs/modelo_er.png : A imagem do Diagrama Entidade-Relacionamento.
 
-## Como rodar o meu projeto
+## Como rodar o projeto
 
 1. Faça o clone deste repositório na sua máquina:
    git clone https://github.com/Paulo967/hotel-nebula.git
